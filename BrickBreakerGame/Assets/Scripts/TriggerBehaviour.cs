@@ -19,6 +19,7 @@ public class TriggerBehaviour : MonoBehaviour
     {
         triggerEvent.Invoke();
         triggerEnterEvent.Invoke();
+        //Debug.Log("I am trigger");
         //UIImageBehaviour.SetHealthBarValue(UIImageBehaviour.GetHealthBarValue() - 0.2f);
 
     }
