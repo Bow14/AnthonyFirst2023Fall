@@ -9,6 +9,8 @@ using Random = System.Random;
 public class BallBehaviour : MonoBehaviour
 {
     // Helped made this scripted with this https://www.youtube.com/watch?v=RYG8UExRkhA Specifically and only with the ball movement chapter
+    
+    // Lecture told me that i should put a bouncy thing on my paddle or off my paddle i dont fully recall
     private Rigidbody rb;
     public float speed = 500f;
 
