@@ -9,6 +9,7 @@ public class InstancerSpawn : MonoBehaviour
 {
 
     public GameObject[] prefabbedData;
+    public BrickBehavoiur bb;
 
    
     //public List<GameObject> prefabbedData = new List<GameObject>();
@@ -19,6 +20,8 @@ public class InstancerSpawn : MonoBehaviour
     public void Awake()
     {
         SpawnAll();
+        //bb.BrickRestart();
+
     }
     
     public void SpawnAll()
